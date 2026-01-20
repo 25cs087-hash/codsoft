@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e90ff;
+        }
+
+        /* About Section */
+        .about {
+            text-align: center;
+        }
+
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .skills li {
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        /* Projects Section */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Resume Section */
+        .resume {
+            text-align: center;
+        }
+
+        .resume a {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Student | Programmer</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="your-photo.jpg" alt="My Photo">
+        <p>
+            I am a beginner web developer passionate about creating simple and
+            responsive websites using HTML and CSS. I am continuously learning
+            new technologies to improve my skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basics)</li>
+            <li>C / C++</li>
+            <li>Python (Basics)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built using HTML and CSS.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Landing Page</h3>
+                <p>A simple landing page design for a product or service.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>Click below to download my resume</p>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@email.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
