@@ -3,51 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page | CodSoft</title>
+    <title>Advanced Landing Page | CodSoft</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Landing Page</h1>
-        <p>CodSoft Web Development Internship</p>
-    </header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">CodSoft</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="btn">Get Started</a></li>
+        </ul>
+    </nav>
 
-    <!-- Main Section -->
-    <section class="main">
-        <div class="box">
-            <h2>About</h2>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Build Modern Web Experiences</h1>
             <p>
-                This landing page is created using HTML and CSS as part of the
-                CodSoft Web Development Internship. It focuses on clean layout,
-                proper alignment, and simple design.
+                Learn web development by creating clean, responsive, and
+                visually appealing landing pages using HTML and CSS.
             </p>
-        </div>
-
-        <div class="box">
-            <h2>Skills Used</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Page Layout</li>
-                <li>Responsive Design</li>
-            </ul>
-        </div>
-
-        <div class="box">
-            <h2>Objective</h2>
-            <p>
-                To design a visually appealing and user-friendly landing page
-                while improving fundamental web development skills.
-            </p>
+            <a href="#features" class="hero-btn">Explore Features</a>
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Why This Landing Page?</h2>
+        <div class="feature-box">
+            <div class="card">
+                <h3>Clean Design</h3>
+                <p>Focused on layout, spacing, and color balance.</p>
+            </div>
+            <div class="card">
+                <h3>Responsive</h3>
+                <p>Works smoothly on desktop and mobile devices.</p>
+            </div>
+            <div class="card">
+                <h3>Beginner Friendly</h3>
+                <p>Built using only HTML and CSS fundamentals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About the Project</h2>
+        <p>
+            This landing page is developed as part of the
+            <strong>CodSoft Web Development Internship (Level 1)</strong>.
+            The goal is to strengthen core frontend skills while creating
+            a professional-looking web page.
+        </p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta" id="contact">
+        <h2>Start Your Web Journey Today</h2>
+        <p>Practice. Build. Improve.</p>
+        <a href="#" class="cta-btn">Join Now</a>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2026 Janani | CodSoft Internship</p>
+        <p>© 2026 Janani | CodSoft Web Development Internship</p>
     </footer>
 
 </body>
 </html>
+
