@@ -12,11 +12,11 @@ function deleteLast() {
     display.value = display.value.slice(0, -1);
 }
 
-function calculate() {
+function calculateResult() {
     try {
-        // Eval calculates the string as an expression
         display.value = eval(display.value);
     } catch {
         display.value = "Error";
     }
 }
+
