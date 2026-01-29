@@ -4,10 +4,10 @@ All tasks were developed using **HTML, CSS, and JavaScript**, focusing on fronte
 
 📂 Project Structure
 
-codsoft/
-│── LEVEL-1-TASK-1/
-│── LEVEL-1-TASK-2/
-│── LEVEL-1-TASK-3/
+codsoft
+ ->LEVEL-1-TASK-1
+ ->LEVEL-1-TASK-2
+ ->LEVEL-1-TASK-3
 
 Each folder represents one task assigned during the internship.
 
